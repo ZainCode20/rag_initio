@@ -22,7 +22,7 @@ Bash
 pip install -U langchain langchain-community langchain-groq sentence-transformers chromadb
 Set your Groq API key as an environment variable:
 Bash
-## you can usw openai model or any other llm
+## you can use openai model or any other llm
 export GROQ_API_KEY="your_groq_api_key_here"
 (Replace "your_groq_api_key_here" with your actual Groq API key.)
 Run the Python script:
