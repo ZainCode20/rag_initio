@@ -25,8 +25,12 @@ Bash
 ## you can use openai model or any other llm
 export GROQ_API_KEY="your_groq_api_key_here"
 (Replace "your_groq_api_key_here" with your actual Groq API key.)
-Run the Python script:
-Bash
 
-python your_script_name.py
+
+
+
  # e.g., python rag_example.py
+ **Install Packages:**
+```bash
+pip install -U langchain langchain-community langchain-groq sentence-transformers chromadb
+```
